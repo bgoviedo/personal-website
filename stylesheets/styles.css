@@ -1,8 +1,21 @@
+p {
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  color: #334;
+  line-height: 1.4;
+  margin: 0px;
+}
+
+container {
+    max-width: 900px !important;
+}
+
 .header {
   position: relative;
   overflow: hidden;
   line-height: 0px;
   box-sizing: content-box;
+  max-height: 700px !important;
 }
 
 .header:before {
@@ -136,6 +149,10 @@
 
 #categories ul li a.active {
   color: #F33446;
+}
+
+#contact {
+    background-color: rgb(50, 64, 83);
 }
 
 .heading {
