@@ -6,6 +6,29 @@ p {
   margin: 0px;
 }
 
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+    color: white;
+}
+
+a.white {
+  color: #FFF;
+}
+
+a, a:hover {
+    color: rgb(29, 83, 121);
+}
+a:focus.nounderline {
+    text-decoration: none;
+}
+
 .container {
     max-width: 900px !important;
 }
@@ -42,7 +65,7 @@ p {
   -ms-transform: rotate(0.000001deg);
   transform: rotate(0.000001deg);
 }
-.contact, .contact p {
+.skills, .skills p {
     color: white;
     background-color: rgb(50, 64, 83);
     width: 100%;
@@ -100,7 +123,7 @@ p {
 }
 .profile {
   position: absolute;
-  width: 500px;
+  width: 490px;
   top: calc(50% - 200px);
   left: calc(50% - 250px);
   text-align: center;
@@ -123,7 +146,14 @@ p {
   float: left;
   margin-top: 4px;
   margin-left: 8px;
+  width: 10px;
 }
+
+#logo {
+  width: 35px;
+  height: auto;
+}
+
 
 #mobile-nav {
   display: none;
@@ -176,7 +206,7 @@ nav ul li a {
   color: #FFF;
 }
 
-@media print, screen and (max-width: 1200px) {
+@media print, screen and (max-width: 1160px) {
 
   .heading {
     margin-top: 0px;
@@ -228,7 +258,7 @@ nav ul li a {
     pointer-events: none;
   }
 
-  #titlebar.open, #titlebar.open nav {
+  #titlebar.open {
     background-color: rgba(17, 17, 17, 1);
   }
 
@@ -239,6 +269,10 @@ nav ul li a {
     pointer-events: auto;
   }
 
+  #titlebar.closed {
+      color: white;
+  }
+
   nav ul li{
     float: none;
     margin-bottom: 20px;
@@ -247,9 +281,5 @@ nav ul li a {
 
   .heading {
     font-size: 38px;
-  }
-
-  .modal-content {
-    top: 0px;
   }
 }

@@ -5,32 +5,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>oviedo.io</title>
-    <link rel="stylesheet" href="stylesheets/styles.css" media="screen">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="stylesheets/styles.css" media="screen">
 </head>
 
-<body>
-
+<body id="#beginning">
     <div id="titlebar">
-        <!-- <a href="index.html#home" id="mobile-logo">
+        <a href="#beginning" id="mobile-logo" onclick="$(window).scrollTo(0, 400, {offset: -50})">
             <img id="logo" src="images/logo.png">
-        </a> -->
+        </a>
         <div id="mobile-nav">
-            <a href="index.html#!" onclick="toggleMenu()" class="white">MENU</a>
+            <a href="index.html#!" onclick="toggleMenu()" class="white nounderline">MENU</a>
         </div>
         <nav id="categories" role="navigation">
             <div class="menu">
                 <ul>
-                    <li class="introduction">
+                    <li>
                         <a href="#introduction" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});toggleMenu();">Introduction</a>
                     </li>
-                    <li class="skills">
+                    <li>
                         <a href="#skills" onclick="$(window).scrollTo($('#skills'), 400, {offset: -50});toggleMenu();">Skills</a>
                     </li>
-                    <li class="contactMe">
+                    <li>
                         <a href="#contact" onclick="$(window).scrollTo($('#contact'), 400, {offset: -50});toggleMenu();">Contact</a>
                     </li>
                 </ul>
@@ -65,30 +66,34 @@
                 </p>
             </div>
         </div>
-
     </div>
-    <div class="contact">
+    <div class="skills" id="skills">
         <div class="container">
             <br>
-            <h2 class="heading white">Contact</h2>
+            <h2 class="heading">Skills</h2>
             <p>
                 Donec accumsan, nisl id iaculis pulvinar, justo mauris luctus felis, a interdum sapien ex sed nisl. Donec a ante sed enim vestibulum imperdiet nec sit amet ante. Sed risus orci, sagittis a tempus consequat, vestibulum quis nulla. Mauris justo orci, scelerisque
                 eu tellus et, ullamcorper cursus lectus. Suspendisse a posuere eros, eget commodo nunc. Mauris purus magna, elementum in est et, faucibus feugiat libero. Vivamus placerat vulputate fringilla. Cras lobortis auctor tellus, at sagittis tellus condimentum non. Etiam a erat metus. Ut mattis porttitor nibh ut eleifend. Vestibulum porta, enim ac fermentum tempus, tortor lectus viverra sem, sed ornare mi mauris quis purus.
             </p>
-            <p>
-                Aenean porttitor, libero at congue interdum, ante mi sollicitudin est, eget ultrices quam sapien a mi. Donec maximus facilisis ligula ut dapibus. Nulla lobortis sit amet lectus sed posuere. Mauris ultrices nisi quis diam mollis, eu venenatis ipsum ultrices. Quisque id dui est. Curabitur placerat turpis ac rutrum interdum. Nullam varius porttitor urna, at vehicula ante convallis ullamcorper. Nulla cursus urna quis nisi dapibus, eu suscipit lacus tempor. Morbi ornare vitae neque in ornare. Duis enim magna, tristique sit amet lectus nec, faucibus dignissim leo.
-            </p>
+
         </div>
     </div>
+    <div class="contact" id="contact">
+        <div class="container">
+            <br>
+            <h2 class="heading">Contact</h2>
+            <p>
+                Donec accumsan, nisl id iaculis pulvinar, justo mauris luctus felis, a interdum sapien ex sed nisl. Donec a ante sed enim vestibulum imperdiet nec sit amet ante. Sed risus orci, sagittis a tempus consequat, vestibulum quis nulla. Mauris justo orci, scelerisque
+                eu tellus et, ullamcorper cursus lectus. Suspendisse a posuere eros, eget commodo nunc. Mauris purus magna, elementum in est et, faucibus feugiat libero. Vivamus placerat vulputate fringilla. Cras lobortis auctor tellus, at sagittis tellus condimentum non. Etiam a erat metus. Ut mattis porttitor nibh ut eleifend. Vestibulum porta, enim ac fermentum tempus, tortor lectus viverra sem, sed ornare mi mauris quis purus.
+            </p>
 
-
+        </div>
+    </div>
 
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" charset="utf-8"></script>
 <script src="scripts/scripts.js" charset="utf-8"></script>
-
-
 
 </html>
