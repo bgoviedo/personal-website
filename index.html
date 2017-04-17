@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.1/css/material-design-iconic-font.min.css">
     <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="stylesheets/styles.css" media="screen">
@@ -27,9 +28,6 @@
                 <ul>
                     <li>
                         <a href="#introduction" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});toggleMenu();">Introduction</a>
-                    </li>
-                    <li>
-                        <a href="#skills" onclick="$(window).scrollTo($('#skills'), 400, {offset: -50});toggleMenu();">Skills</a>
                     </li>
                     <li>
                         <a href="#contact" onclick="$(window).scrollTo($('#contact'), 400, {offset: -50});toggleMenu();">Contact</a>
@@ -55,40 +53,90 @@
             <div class="col-sm-12">
                 <h2 class="heading">Introduction</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et egestas erat, nec ultrices nisl. Quisque pretium arcu at accumsan consectetur. Suspendisse maximus odio eros, eu tempus ipsum rutrum at. Nam tempus facilisis laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sapien neque, placerat nec dictum sed, sollicitudin a urna. Duis fermentum ipsum tellus, in suscipit tortor fringilla ac. Donec ac tortor urna. Pellentesque molestie neque vehicula enim placerat, ut faucibus est dictum. Fusce pulvinar dui non facilisis tempor. Vestibulum ornare imperdiet sapien, sed lacinia libero. Morbi ligula urna, commodo ac tortor nec, aliquam ultricies mi.
+                    Welcome! My name is Bijan Oviedo, I'm 21 years old and am currently in my third year studying Computer Science at the <a href="http://www.uchicago.edu">University of Chicago</a>.
                 </p>
                 <p>
-                    Donec accumsan, nisl id iaculis pulvinar, justo mauris luctus felis, a interdum sapien ex sed nisl. Donec a ante sed enim vestibulum imperdiet nec sit amet ante. Sed risus orci, sagittis a tempus consequat, vestibulum quis nulla. Mauris justo orci, scelerisque
-                    eu tellus et, ullamcorper cursus lectus. Suspendisse a posuere eros, eget commodo nunc. Mauris purus magna, elementum in est et, faucibus feugiat libero. Vivamus placerat vulputate fringilla. Cras lobortis auctor tellus, at sagittis tellus condimentum non. Etiam a erat metus. Ut mattis porttitor nibh ut eleifend. Vestibulum porta, enim ac fermentum tempus, tortor lectus viverra sem, sed ornare mi mauris quis purus.
+	                What do I do? I code. I started programming in <a href="https://en.wikipedia.org/wiki/BASIC">BASIC</a> on a TI-82 calculator when I was 12 or thereabouts. I wrote programs that did things like print my name 100 times. I thought to myself: this thing has potential.
                 </p>
                 <p>
-                    Aenean porttitor, libero at congue interdum, ante mi sollicitudin est, eget ultrices quam sapien a mi. Donec maximus facilisis ligula ut dapibus. Nulla lobortis sit amet lectus sed posuere. Mauris ultrices nisi quis diam mollis, eu venenatis ipsum ultrices. Quisque id dui est. Curabitur placerat turpis ac rutrum interdum. Nullam varius porttitor urna, at vehicula ante convallis ullamcorper. Nulla cursus urna quis nisi dapibus, eu suscipit lacus tempor. Morbi ornare vitae neque in ornare. Duis enim magna, tristique sit amet lectus nec, faucibus dignissim leo.
+	                I love writing high-performance, <a href="https://computing.llnl.gov/tutorials/pthreads/">multi-threaded</a> code, so my weapon of choice for problem-solving is C/C++. But whether it's low level or high level, I love tinkering with new technologies, and can often be found making websites with HTML/CSS/JavaScript, learning iOS and Android development, or studying machine learning with Python.
                 </p>
+                <p>
+	                When I'm not coding, I enjoy playing the trumpet, reading about law, and traveling with my family.
+                </p>
+                
+                <div class="resume" style="text-align: center">
+                    <a href="files/Oviedo_Bijan_resume.pdf" class="btn btn-lg" title="View Resumé">
+                        <i class="zmdi zmdi-file"></i> View Resumé
+                    </a>
+                </div>
+
+				<hr>
+				
+				<p>
+					I love music. A lot. Here's some of the music I'm listening to in heavy rotation:
+					
+				</p>
+				<div class="container" id="spotify">
+					<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aboviedo14%3Aplaylist%3A0dk6r4M5d8kCDXPFchtPKD&theme=white" width="100%" height="300" frameborder="0" allowtransparency="true"></iframe>
+				</div>
+				
+				
+				<hr>
+				<p>
+					And here are some of the books I've enjoyed reading recently:
+				</p>
+				<ul class="bookslist">
+					<li>
+						<a href="https://www.amazon.com/East-Penguin-Twentieth-Century-Classics/dp/0140186395/">
+							East of Eden
+						</a>
+						by John Steinbeck. A modern telling of the story of good and evil. Possibly my favorite book of all time.
+					</li>
+					
+					<li>
+						<a href="https://www.amazon.com/Most-Good-You-Can-Effective/dp/0300219865/">
+							The Most Good You Can Do: How Effective Altruism Is Changing Ideas About Living Ethically
+						</a>
+						by Peter Singer. Shows that to truly make a positive difference, we need to use both our hearts <i>and</i> our heads. I'd highly recommend watching Singer's <a href=https://www.ted.com/talks/peter_singer_the_why_and_how_of_effective_altruism>TED talk</a> on the topic if you don't have time to read the entire book.
+					</li>
+					
+					<li>
+						<a href="https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010/">
+							The Better Angels of Our Nature: Why Violence Has Declined
+						</a>
+						by Steven Pinker. Demonstrates that, contrary to what we may be hearing in the media, the world is <i>not</i> getting worse. <a href="https://ourworldindata.org/a-history-of-global-living-conditions-in-5-charts/">Proof.</a>
+					</li>
+				</ul>
+                <hr>
             </div>
         </div>
     </div>
-    <div class="skills" id="skills">
-        <div class="container">
-            <br>
-            <h2 class="heading">Skills</h2>
-            <p>
-                Donec accumsan, nisl id iaculis pulvinar, justo mauris luctus felis, a interdum sapien ex sed nisl. Donec a ante sed enim vestibulum imperdiet nec sit amet ante. Sed risus orci, sagittis a tempus consequat, vestibulum quis nulla. Mauris justo orci, scelerisque
-                eu tellus et, ullamcorper cursus lectus. Suspendisse a posuere eros, eget commodo nunc. Mauris purus magna, elementum in est et, faucibus feugiat libero. Vivamus placerat vulputate fringilla. Cras lobortis auctor tellus, at sagittis tellus condimentum non. Etiam a erat metus. Ut mattis porttitor nibh ut eleifend. Vestibulum porta, enim ac fermentum tempus, tortor lectus viverra sem, sed ornare mi mauris quis purus.
-            </p>
-
-        </div>
-    </div>
-    <div class="contact" id="contact">
-        <div class="container">
-            <br>
+    <div id="contact" class="grid grid-pad">
+        <div class="col-1-1">
             <h2 class="heading">Contact</h2>
-            <p>
-                Donec accumsan, nisl id iaculis pulvinar, justo mauris luctus felis, a interdum sapien ex sed nisl. Donec a ante sed enim vestibulum imperdiet nec sit amet ante. Sed risus orci, sagittis a tempus consequat, vestibulum quis nulla. Mauris justo orci, scelerisque
-                eu tellus et, ullamcorper cursus lectus. Suspendisse a posuere eros, eget commodo nunc. Mauris purus magna, elementum in est et, faucibus feugiat libero. Vivamus placerat vulputate fringilla. Cras lobortis auctor tellus, at sagittis tellus condimentum non. Etiam a erat metus. Ut mattis porttitor nibh ut eleifend. Vestibulum porta, enim ac fermentum tempus, tortor lectus viverra sem, sed ornare mi mauris quis purus.
-            </p>
-
+            <div class="social">
+                <a href="mailto:boviedo@uchicago.edu" title="boviedo@uchicago.edu" style="left: 0%; right: 75%">
+                    <i class="zmdi zmdi-email"></i>
+                    <div class="social-text">boviedo<wbr>@uchicago.edu</div>
+                </a>
+                <a href="https://github.com/bgoviedo" title="github.com/bgoviedo" style="left: 25%; right: 50%">
+                    <i class="zmdi zmdi-github-box"></i>
+                    <div class="social-text">github.com<wbr>/bgoviedo</div>
+                </a>
+                <a href="http://facebook.com/boviedo" title="facebook.com/boviedo" style="left: 50%; right: 25%">
+                    <i class="zmdi zmdi-facebook-box"></i>
+                    <div class="social-text">facebook.com<wbr>/boviedo</div>
+                </a>
+                <a href="http://linkedin.com/in/boviedo" title="linkedin.com/in/boviedo" style="left: 75%; right: 0%">
+                    <i class="zmdi zmdi-linkedin-box"></i>
+                    <div class="social-text">linkedin.com<wbr>/in/boviedo</div>
+                </a>
+            </div>
         </div>
     </div>
+    <br>
+    <br>
 
 </body>
 
@@ -97,3 +145,4 @@
 <script src="scripts/scripts.js" charset="utf-8"></script>
 
 </html>
+
