@@ -1,3 +1,3 @@
-# personalWebsite
+# Personal Website
 
-Building my personal website. Still in progress, but should be done and published around mid-October!
+Code for my personal website, which can be found at [www.oviedo.io](www.oviedo.io).
